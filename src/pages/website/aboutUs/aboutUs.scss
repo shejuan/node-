@@ -1,0 +1,15 @@
+@import "src/style/base/variables";
+
+@import "src/style/app";
+
+.aboutUs {
+    width:70%;
+    margin:0 auto;
+}
+p {
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 50px;
+    font-family: "微软雅黑";
+}

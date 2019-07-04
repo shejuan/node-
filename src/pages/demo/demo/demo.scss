@@ -1,0 +1,50 @@
+@import "src/style/base/variables";
+
+@import "src/style/app";
+
+h1,
+h2 {
+    font-weight: normal;
+    text-align: center;
+    color: $color-red;
+}
+
+input,
+button {
+    font-size: 12px;
+}
+
+.content-body {
+    padding-top: 96px;
+    text-align: center;
+}
+
+.size-base {
+    font-size: $font-size-base;
+    font-weight: $font-normal;
+}
+
+.size-small {
+    font-size: $font-size-small;
+    font-weight: $font-medium;
+}
+
+.size-title {
+    font-size: $font-size-title;
+    font-weight: $font-light;
+}
+
+.size-large {
+    font-size: $font-size-large;
+    font-weight: $font-thin;
+}
+
+.size-large-big {
+    font-size: $font-size-large-big;
+}
+
+.mt-20 {
+    h4 {
+        color: red;
+    }
+}

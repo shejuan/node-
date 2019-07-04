@@ -1,0 +1,53 @@
+@import "src/style/base/variables";
+
+@import "src/style/app";
+
+.solution {
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.leftDiv{
+    width: 20%;
+    height:100%;
+    float: left;
+    overflow: auto;
+    background: white;
+}
+.rightDiv {
+    width:80%;
+    height: 100%;
+    float: left;
+    overflow: auto;
+}
+.el-menu {
+    font-size: 18px;
+    height: 100%;
+}
+.topDiv {
+    width: 100%;
+    height:360px;
+}
+p {
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 50px;
+    font-family: "微软雅黑";
+}
+.picInfo {
+    img{
+        width:50%;
+        height:500px;
+    }
+}
+.ewm {
+    width:100%;
+    height:10%;
+    margin-top:20px;
+
+    img {
+        width:50%;
+        height:300px;
+    }
+}

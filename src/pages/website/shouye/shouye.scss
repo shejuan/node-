@@ -1,0 +1,115 @@
+@import "src/style/base/variables";
+
+@import "src/style/app";
+
+h1,
+h2 {
+    font-weight: normal;
+    text-align: center;
+    color: $color-red;
+}
+
+input,
+button {
+    font-size: 12px;
+}
+
+.content-body {
+    padding-top: 96px;
+    text-align: center;
+}
+
+.size-base {
+    font-size: $font-size-base;
+    font-weight: $font-normal;
+}
+
+.size-small {
+    font-size: $font-size-small;
+    font-weight: $font-medium;
+}
+
+.size-title {
+    font-size: $font-size-title;
+    font-weight: $font-light;
+}
+
+.size-large {
+    font-size: $font-size-large;
+    font-weight: $font-thin;
+}
+
+.size-large-big {
+    font-size: $font-size-large-big;
+}
+
+.mt-20 {
+    h4 {
+        color: red;
+    }
+}
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 200px;
+    margin: 0;
+}
+  
+.el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+}
+  
+.el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+}
+
+.title {
+    height:20px;
+    color:rgb(144,147,153);
+    margin-bottom: 10px;
+}
+.box {
+    width: 70%;
+    height:auto;
+    margin: 0 auto;
+}
+
+.content {
+    width:100%;
+    height: 24%;
+    margin-top: 20px;
+}
+
+.picAre {
+    img {
+        width: 100%;
+        height: 455px;
+    }
+}
+
+.znsb {
+    width: 100%;
+    height: 21%;
+    margin-top: 20px;
+
+    img {
+        width:100%;
+        height:430px;
+    }
+}
+
+.ewm {
+    width:100%;
+    height:10%;
+    margin-top:20px;
+
+    img {
+        width:50%;
+        height:300px;
+    }
+}
+
+el-menu {
+    height:50px;
+}

@@ -1,0 +1,12 @@
+@import "src/style/base/variables";
+
+@import "src/style/app";
+
+.yptContent {
+    width:70%;
+    margin:0 auto;
+
+    img {
+        width: 100%;
+    }
+}
